@@ -1,184 +1,331 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html lang="en">
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PRE-ROI Staff ID Card Generator</title>
+    <title>Pre-Rio Web Building Sites</title>
 
     <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
+<body id="top">
 
-<div class="container">
+<!-- Navigation -->
 
-    <h1>PRE-ROI Staff ID Card Generator</h1>
+<header>
 
-    <div class="form">
+    <div class="logo">
+<img src="images/logo.png" alt="Pre-Rio Logo" width="150">
 
-        <input type="text" id="company" placeholder="Company Name">
-
-        <input type="text" id="fullname" placeholder="Full Name">
-
-        <input type="text" id="idnumber" placeholder="Staff ID">
-
-        <input type="text" id="department" placeholder="Department">
-
-        <input type="text" id="position" placeholder="Position">
-
-        <input type="email" id="email" placeholder="Email">
-
-        <input type="text" id="phone" placeholder="Phone Number">
-
-        <input type="date" id="expiry">
-
-        <input type="file" id="photo" accept="image/*">
-
-        <button onclick="generateCard()">Generate ID Card</button>
-
-        <button onclick="window.print()">Print ID Card</button>
+        <h2><span style="color:#6495ED">PRE-RIO</span></h2>
 
     </div>
+<nav>
 
-    <div class="id-card" id="card">
-<div class="watermark">
+    <ul>
 
-    <img src="images/logo.png" alt="Watermark">
+        <li><a href="#home">Home</a></li>
 
-</div>
-        <div class="header">
+        <li><a href="#about">About</a></li>
 
-            <img src="images/logo.png" class="logo" alt="PRE-ROI Logo">
+        <li><a href="#services">Services</a></li>
 
-            <div class="company-details">
+        <li><a href="#portfolio">Portfolio</a></li>
+<li><a href="id-card.html">ID Card Generator</a></li>
+        <li><a href="#contact">Contact</a></li>
 
-                <h2 id="companyDisplay">PRE-ROI Web Building Sites</h2>
+    </ul>
 
-                <p>Professional Staff Identification Card</p>
+</nav>
+</header>
 
-            </div>
+<!-- Hero Section -->
+
+<section id="home" class="hero">
+
+    <h1>Building Modern Websites for Your Success</h1>
+
+    <p>
+
+        Welcome to <strong>Pre-Rio Web Building Sites</strong>. We design fast,
+
+        secure, and responsive websites for businesses, schools, churches,
+
+        organizations, and individuals.
+
+    </p>
+
+    <a href="#contact">
+
+        <button>Get a Free Quote</button>
+
+    </a>
+
+</section>
+
+<!-- About -->
+
+<section id="about">
+
+    <h2>About Us</h2>
+
+    <p>
+
+    At Pre-Rio Web Building Sites, our mission is to help businesses and
+
+    organizations build a strong online presence. We create beautiful,
+
+    responsive, and user-friendly websites tailored to our clients' needs.
+
+</p>
+
+</section>
+
+<!-- Services -->
+
+<section id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+
+        <div class="service">
+
+            <h3>Business Websites</h3>
+
+            <p>Professional websites for companies.</p>
 
         </div>
 
-        <div class="card-body">
+        <div class="service">
 
-            <div class="photo-section">
+            <h3>Portfolio Websites</h3>
 
-                <img src="images/passport.png" id="photoDisplay" alt="Staff Photo">
-
-                <h3 id="nameDisplay">Francis Precious Stephanie</h3>
-
-                <p id="positionDisplay">Lead Web Developer</p>
-
-            </div>
-
-            <div class="details-section">
-
-                <p><strong>ID:</strong> <span id="idDisplay">PR-001</span></p>
-
-                <p><strong>Department:</strong> <span id="departmentDisplay">Web Development</span></p>
-
-                <p><strong>Email:</strong> <span id="emailDisplay">prerio456@gmail.com</span></p>
-
-                <p><strong>Phone:</strong> <span id="phoneDisplay">09015258763</span></p>
-
-                <p><strong>Expiry:</strong> <span id="expiryDisplay">2031-12-31</span></p>
-
-            </div>
-
-        </div>
-<div class="card-bottom">
-        <div class="signature">
-
-    <img src="images/signature.png" alt="Signature">
-
-    <p>Authorized Signature</p>
-
-</div>
-
-            <div class="qr">
-
-                <img src="images/qrcode.png" alt="QR Code">
-
-            </div>
+            <p>Showcase your work professionally.</p>
 
         </div>
 
-        <div class="footer">
+        <div class="service">
 
-    <h3>PRE-ROI Web Building Sites</h3>
+            <h3>E-Commerce</h3>
 
-    <p>🌐 https://github.com/v7wjcvn7fv-web</p>
+            <p>Sell your products online.</p>
 
-    <p>📧 preroi456@gmail.com</p>
+        </div>
 
-    <p>📞 +234 901 525 8763</p>
+        <div class="service">
 
-    <p>📍 Lagos,Nigeria</p>
+            <h3>Website Maintenance</h3>
 
-    <small>We Build. You Grow. Online.</small>
+            <p>Keeping your website updated and secure.</p>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="why-us">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="service-box">
+
+        <div class="service">
+
+            <h3>Fast Delivery</h3>
+
+            <p>We complete projects on time without sacrificing quality.</p>
+
+        </div>
+
+        <div class="service">
+
+            <h3>Responsive Design</h3>
+
+            <p>Your website will look great on phones, tablets, and computers.</p>
+
+        </div>
+
+        <div class="service">
+
+            <h3>Affordable Pricing</h3>
+
+            <p>We provide quality websites at competitive prices.</p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Portfolio -->
+
+<section id="portfolio">
+
+    <h2>Our Portfolio</h2>
+
+    <div class="portfolio">
+
+        <div class="project">
+
+            <h3>Business Website</h3>
+
+            <p>Modern responsive company website.</p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>School Website</h3>
+
+            <p>Educational website project.</p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>Church Website</h3>
+
+            <p>Professional church website.</p>
+
+        </div>
+<div class="project">
+
+    <img src="images/id-card-project.jpg" alt="Professional Staff ID Card">
+
+    <h3>Professional Staff ID Card Generator</h3>
+
+    <p>
+
+        A professional staff ID card generator designed for PRE-ROI Web Building Sites.
+
+        It features staff photo upload, company logo, QR code, digital signature,
+
+        watermark, and print-ready output.
+
+    </p>
+
+    <a href="id-card.html" class="project-btn">
+
+        View Project
+
+    </a>
 
 </div>
 
     </div>
-    
 
-</div>
-<!-- Back of ID Card -->
+</section>
+<section id="testimonials">
 
-<div id="id-card-back" class="id-card-back">
+    <h2>What Our Clients Say</h2>
 
-    <div class="back-header">
+    <div class="testimonial">
 
-        <h2>PRE-ROI Web Building Sites</h2>
+        <p>"Pre-Rio built a beautiful website for my business. Highly recommended!"</p>
 
-    </div>
-
-    <div class="back-content">
-
-        <img src="images/logo.png" class="back-logo" alt="Company Logo">
-
-        <p><strong>If Found</strong></p>
-
-        <p>Please return this ID card to:</p>
-
-        <p>
-
-            PRE-ROI Web Building Sites<br>
-
-            Lagos, Nigeria
-
-        </p>
-
-        <p>
-
-            🌐 https://github.com/v7wjcvn7fv-web<br>
-
-            ✉ preroi456@gmail.com<br>
-
-            ☎ +234 901 525 8763
-
-        </p>
-
-        <hr>
-
-        <p>
-
-            This card remains the property of PRE-ROI Web Building Sites.
-
-            If found, kindly return it to the company.
-
-        </p>
+        <h4>- John A.</h4>
 
     </div>
 
-</div>
+    <div class="testimonial">
+
+        <p>"Professional service, fast delivery, and great communication."</p>
+
+        <h4>- Sarah M.</h4>
+
+    </div>
+
+</section>
+<section id="cta">
+
+    <h2>Ready to Build Your Website?</h2>
+
+    <p>Let's create a professional website for your business.</p>
+
+    <a href="#contact">
+
+        <button>Contact Us Today</button>
+
+    </a>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p><strong>Company:</strong> Pre-Rio Web Building Sites</p>
+
+    <p><strong>Email:</strong> prerio456@gmail.com</p>
+
+    <p><strong>Phone:</strong> +234 901 525 87 63</p>
+
+    <p><strong>Location:</strong> Lagos, Nigeria</p>
+
+    <br>
+
+    <form>
+
+    <input type="text" placeholder="Your Name" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <input type="text" placeholder="Business Name" required>
+
+    <select required>
+
+        <option value="">Select Website Type</option>
+
+        <option>Business Website</option>
+
+        <option>Portfolio Website</option>
+
+        <option>School Website</option>
+
+        <option>Church Website</option>
+
+        <option>E-commerce Website</option>
+
+        <option>Blog</option>
+
+    </select>
+
+    <input type="number" placeholder="Estimated Budget (₦)" required>
+
+    <textarea placeholder="Tell us about your project" required></textarea>
+
+    <button type="submit">Get a Free Quote</button>
+
+</form>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+    <h3>Pre-Rio Web Building Sites</h3>
+
+    <p>Building Modern Websites for Businesses.</p>
+
+    <p>&copy; 2026 Pre-Rio Web Building Sites. All Rights Reserved.</p>
+
+</footer>
+<a href="https://wa.me/2349015258763" class="whatsapp" target="_blank">
+
+    💬 WhatsApp
+
+</a>
+<a href="#top" class="back-to-top"><span style="color:red">↑ Back to Top</span></a>
+
 <script src="script.js"></script>
 
 </body>
