@@ -1,1 +1,186 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRE-ROI Staff ID Card Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>PRE-ROI Staff ID Card Generator</h1>
+
+    <div class="form">
+
+        <input type="text" id="company" placeholder="Company Name">
+
+        <input type="text" id="fullname" placeholder="Full Name">
+
+        <input type="text" id="idnumber" placeholder="Staff ID">
+
+        <input type="text" id="department" placeholder="Department">
+
+        <input type="text" id="position" placeholder="Position">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="text" id="phone" placeholder="Phone Number">
+
+        <input type="date" id="expiry">
+
+        <input type="file" id="photo" accept="image/*">
+
+        <button onclick="generateCard()">Generate ID Card</button>
+
+        <button onclick="window.print()">Print ID Card</button>
+
+    </div>
+
+    <div class="id-card" id="card">
+<div class="watermark">
+
+    <img src="images/logo.png" alt="Watermark">
+
+</div>
+        <div class="header">
+
+            <img src="images/logo.png" class="logo" alt="PRE-ROI Logo">
+
+            <div class="company-details">
+
+                <h2 id="companyDisplay">PRE-ROI Web Building Sites</h2>
+
+                <p>Professional Staff Identification Card</p>
+
+            </div>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="photo-section">
+
+                <img src="images/passport.png" id="photoDisplay" alt="Staff Photo">
+
+                <h3 id="nameDisplay">Francis Precious Stephanie</h3>
+
+                <p id="positionDisplay">Lead Web Developer</p>
+
+            </div>
+
+            <div class="details-section">
+
+                <p><strong>ID:</strong> <span id="idDisplay">PR-001</span></p>
+
+                <p><strong>Department:</strong> <span id="departmentDisplay">Web Development</span></p>
+
+                <p><strong>Email:</strong> <span id="emailDisplay">prerio456@gmail.com</span></p>
+
+                <p><strong>Phone:</strong> <span id="phoneDisplay">09015258763</span></p>
+
+                <p><strong>Expiry:</strong> <span id="expiryDisplay">2031-12-31</span></p>
+
+            </div>
+
+        </div>
+<div class="card-bottom">
+        <div class="signature">
+
+    <img src="images/signature.png" alt="Signature">
+
+    <p>Authorized Signature</p>
+
+</div>
+
+            <div class="qr">
+
+                <img src="images/qrcode.png" alt="QR Code">
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+    <h3>PRE-ROI Web Building Sites</h3>
+
+    <p>🌐 https://github.com/v7wjcvn7fv-web</p>
+
+    <p>📧 preroi456@gmail.com</p>
+
+    <p>📞 +234 901 525 8763</p>
+
+    <p>📍 Lagos,Nigeria</p>
+
+    <small>We Build. You Grow. Online.</small>
+
+</div>
+
+    </div>
+    
+
+</div>
+<!-- Back of ID Card -->
+
+<div id="id-card-back" class="id-card-back">
+
+    <div class="back-header">
+
+        <h2>PRE-ROI Web Building Sites</h2>
+
+    </div>
+
+    <div class="back-content">
+
+        <img src="images/logo.png" class="back-logo" alt="Company Logo">
+
+        <p><strong>If Found</strong></p>
+
+        <p>Please return this ID card to:</p>
+
+        <p>
+
+            PRE-ROI Web Building Sites<br>
+
+            Lagos, Nigeria
+
+        </p>
+
+        <p>
+
+            🌐 https://github.com/v7wjcvn7fv-web<br>
+
+            ✉ preroi456@gmail.com<br>
+
+            ☎ +234 901 525 8763
+
+        </p>
+
+        <hr>
+
+        <p>
+
+            This card remains the property of PRE-ROI Web Building Sites.
+
+            If found, kindly return it to the company.
+
+        </p>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
