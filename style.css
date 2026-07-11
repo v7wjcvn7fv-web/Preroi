@@ -999,6 +999,11 @@ max-width:380px;
     width:220px;
 
 }
+    .watermak-info p{
+        color:#ffd700 !important;
+        opacity:1 !important;
+        font-weight:600;
+    }
 .header,
 
 .card-body,
