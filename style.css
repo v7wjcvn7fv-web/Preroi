@@ -988,7 +988,7 @@ max-width:380px;
 
     transform:translate(-50%,-50%);
 
-    opacity:1;
+    opacity:0.15;
 
     z-index:0;
 
@@ -997,9 +997,10 @@ max-width:380px;
 .watermark img{
 
     width:220px;
+    opacity:0.15;
 
 }
-    .watermak-info p{
+    .watermark-info p {
         color:#ffd700 !important;
         opacity:1 !important;
         font-weight:600;
