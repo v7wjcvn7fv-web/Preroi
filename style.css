@@ -1034,6 +1034,7 @@ body{
 
 }
 
+
 img{
 
     max-width:100%;
@@ -1106,3 +1107,8 @@ img{
     margin:20px 0;
 
 }
+    .footer p,.footer a{
+        color:#ffffff !important;
+        opacity:1 !important;
+    }
+        
