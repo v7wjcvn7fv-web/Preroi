@@ -1107,9 +1107,11 @@ img{
     margin:20px 0;
 
 }
-    .footer p,.footer a{
-        color:#ffd700;
-        opacity:1 !important;
+    .footer p,.footer a {
+        color: #001F54 !important; /* dark blue */ 
+        opacity: 1 !important; 
+        text-decoration: none;
+        
     
     }
         
